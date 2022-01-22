@@ -9,6 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+//test
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.0",
@@ -24,6 +25,7 @@
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
+
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.0",
