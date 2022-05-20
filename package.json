@@ -8,17 +8,16 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e Arun"
-    
   },
-  
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.0",
+    "@angular/cdk": "^13.3.3",
     "@angular/common": "~9.1.0",
     "@angular/compiler": "~9.1.0",
     "@angular/core": "~9.1.0",
     "@angular/forms": "~9.1.0",
-    "@angular/material": "^13.0.2",
+    "@angular/material": "^9.0.0",
     "@angular/platform-browser": "~9.1.0",
     "@angular/platform-browser-dynamic": "~9.1.0",
     "@angular/router": "~9.1.0",

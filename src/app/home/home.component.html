@@ -21,11 +21,17 @@
     </div>
 
     <div class="container">
+        <div class="search-box">
+
+            
+        </div>
         <div class="title">
             <h1> Near You</h1>
         </div>
 
         <div class="card-container">
+          
+
             <ng-container *ngIf="restaurants.length == 0">
                 <div class="card" duration="1000"  flareWidth="50%" bgFill="#d8d5d1"
                     flareFill="rgba(255,255,255, 0.5)" *ngFor="let item of loaderRestaurant">
@@ -40,7 +46,7 @@
                     </div>
                 </div>
             </ng-container>
-
+          
             <div class="card" *ngFor="let restaurant of restaurants" >
                 <div>
                     <img alt="Ancient Hyderabad" width="254" height="160" [src]="imagePath">
